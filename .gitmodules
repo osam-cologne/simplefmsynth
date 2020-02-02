@@ -1,0 +1,6 @@
+[submodule "dpf"]
+	path = dpf
+	url = git://github.com/DISTRHO/DPF.git
+[submodule "gamma"]
+	path = gamma
+	url = https://github.com/LancePutnam/Gamma
