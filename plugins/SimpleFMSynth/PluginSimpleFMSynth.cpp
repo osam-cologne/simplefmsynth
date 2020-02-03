@@ -268,11 +268,11 @@ void PluginSimpleFMSynth::loadProgram(uint32_t index) {
             setParameterValue(paramAmpEnvAttack, 0.02f);
             setParameterValue(paramAmpEnvDecay, 0);
             setParameterValue(paramAmpEnvSustain, 1.f);
-            setParameterValue(paramAmpEnvRelease, 0.04f);
-            setParameterValue(paramFEnvAttack, 0.001f);
+            setParameterValue(paramAmpEnvRelease, 0.02f);
+            setParameterValue(paramFEnvAttack, 0.01f);
             setParameterValue(paramFEnvDecay, 0);
             setParameterValue(paramFEnvSustain, 1.0f);
-            setParameterValue(paramFEnvRelease, 0.001f);
+            setParameterValue(paramFEnvRelease, 0.02f);
             setParameterValue(paramLFOWaveshape, LFO::triangle);
             setParameterValue(paramLFOFrequency, 8.0f);
             setParameterValue(paramLFOOscAmount, 0);
